@@ -85,14 +85,13 @@ export default function Clock() {
       {/* Clock */}
       <div className="absolute inset-0 flex items-center justify-center">
         <h1
-          className="text-white select-none rotate-90 md:rotate-0 text-[40vw] md:text-[20vw]"
+          className="text-white select-none rotate-90 md:rotate-0 text-[40vw] md:text-[20vw] fon"
           style={{
-            fontWeight: 600,
+            fontWeight: 1000,
             letterSpacing: "-0.5vw",
             lineHeight: 1,
             transformOrigin: "center",
-            fontFamily:
-              "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+            fontFamily:"ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
             fontVariantNumeric: "tabular-nums",
           }}
         >
